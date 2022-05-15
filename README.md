@@ -35,9 +35,20 @@ In this assignment we want you to Extract data, Clean data, Create a report, and
 ## Deliverables
 
 - [ ] Databricks Community Notebook
-- [ ] `Report_Make_State_Fine.csv` With header and "|" deliminer. Report  table to get the Sum of `Fine_Amounts` for each State Plates (`RP_State_Plate` column) for each selected vehicle make company (`Make` column).  The selected brands are: `Make_Cars = ["ACUR", "AUDI", "DODG", "BMW", "BUIC", "CHEV", "CHRY", "NISS","FIAT", "FORD", "GMC", "JEEP", "KIA", "VOLV", "TOYT", "SUBA", "MAZD"]`
+- [ ] `Report_Make_State_Fine.csv` With header and "|" deliminer. Report  table to get the Sum of `Fine_Amounts` for each State Plates (`RP_State_Plate` column) for each selected vehicle make company (`Make` column).  The selected brands are:
+
+`Make_Cars = ["ACUR", "AUDI", "DODG", "BMW", "BUIC", "CHEV", "CHRY", "NISS","FIAT", "FORD", "GMC", "JEEP", "KIA", "VOLV", "TOYT", "SUBA", "MAZD"]`
 
 Final report should look like:
 
 ![Question9](report_table.PNG)
+
+- [ ] `Report_HOND_2016.csv` report with header and "," deliminer. Filter the dataframe where `Make = HOND` and get a count of total violation descriptions per category in 2016.
+- [ ] `Report_Parking_Fines_2016.csv` Report with header and "," deliminer.Create a new dataframe from the original dataset, drop everything before 2016 date, and only use the below columns:
+
+`keep_columns=['Ticket_number', 'RP_State_Plate', 'Make', 'Body_Style', 'Fine_amount']`
+
+---
+
+## Steps to Reproduce
 
